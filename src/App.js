@@ -14,7 +14,6 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          
           <Route path='/' exact component={Inicio} />
           <Route path='/categorias' component={Categorias} />
           <Route path='/perguntas/:nome' component={Perguntas} />
