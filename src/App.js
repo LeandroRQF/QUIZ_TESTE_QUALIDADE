@@ -17,7 +17,8 @@ class App extends Component {
           <Route path='/' exact component={Inicio} />
           <Route path='/categorias' component={Categorias} />
           <Route path='/perguntas/:nome' component={Perguntas} />
-          <Route path='/resultado' component={Resultado} />          
+          <Route path='/resultado' component={Resultado} />
+          <Route path='/ranking' component={Ranking} />
         </div>
       </BrowserRouter>
     );
