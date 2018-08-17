@@ -52,8 +52,8 @@ class Perguntas extends Component {
                 <Grid columns={2}>
                     <Grid.Row>
                         <Grid.Column>
-                            <Message color='yellow'>
-                                <h1>{pergunta.alternativas}<Radio toggle /></h1>
+                            <Message color='yellow'>                               
+                                <h1>{pergunta.alternativas[1].resposta}</h1>
                                 <p>Select * from TABELA</p>
                             </Message>
                         </Grid.Column>
